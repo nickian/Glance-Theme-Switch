@@ -1,0 +1,6 @@
+# Light
+theme:
+  light: true
+  background-color: 0 0 95
+  primary-color: 0 0 10
+  negative-color: 0 90 50
