@@ -1,6 +1,6 @@
-# How to use this script
+This script is a hack for [Glance](https://github.com/glanceapp/glance) that allows you to automatically switch between a dark and a light theme based on time. It will append the contents of the `dark.yml` or `light.yml` file (which contain theme definitions) to the `glance.yml` file when the hour matches those defined in `.env`. It will also restart your Glance docker container.
 
-This script is a hack for [Glance](https://github.com/glanceapp/glance) that allows you to automatically switch between a dark and a light theme based on time. It will append the contents of the `dark.yml` or `light.yml` file (which contents a theme definition) when the hour matches those defined in `.env`. It will also restart your Glance docker container.
+# How to use the script
 
 1. Rename the `.env.example` file to `.env` and set your configuration values in this file.
 
